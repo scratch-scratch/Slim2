@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: yuki-tangolevel
+    name: flow-me-zettai1
     env: python
     region: Oregon
     plan: free
