@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: apropos-towards
+    name: outface-saku
     env: python
     region: Oregon
     plan: free
