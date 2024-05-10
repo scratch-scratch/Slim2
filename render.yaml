@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: outface-saku
+    name: liquefy-stone
     env: python
     region: Oregon
     plan: free
