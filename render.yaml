@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: popcorn-snack
+    name: forever-min
     env: python
     region: Oregon
     plan: free
