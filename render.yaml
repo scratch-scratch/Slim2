@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: forever-min
+    name: apropos-towards
     env: python
     region: Oregon
     plan: free
