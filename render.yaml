@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: hgjidkc-5
+    name: snowdrop-blog
     env: python
     region: Oregon
     plan: free
