@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: snowdrop-blog
+    name: popcorn-snack
     env: python
     region: Oregon
     plan: free
