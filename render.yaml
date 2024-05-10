@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: flow-me-zettai1
+    name: hgjidkc-5
     env: python
     region: Oregon
     plan: free
