@@ -1,15 +1,19 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
+<!DOCTYPE html>
+<>
 <head>
-<title>3秒後に転送されます</title>
-<meta http-equiv="refresh" content="3;url=https://yorg3.io">
+    <meta charset='utf-8'>
+    <title>how to make</title>
+    <script>function getlevel(){
+        if(document.getElementById('word').value == "yuki"){document.cookie = "yuki=True; path=/;";}else{
+        let req = new XMLHttpRequest();
+        req.addEventListener("load", function(){document.getElementById('info').textContent = this.responseText});
+        req.open("GET", "/answer?q="+document.getElementById('word').value);
+        req.send();}
+    }</script>
 </head>
-
-<body>
-yorg.io<br>
-人気の領土拡張ゲーム<br>
-Get on steam<br>
-3秒後に転送します<br>
+    英単語のレベルを出します。<br>
+    その単語が文脈から判断するべき単語か、覚えておくべき単語かの参考にしてください。<br>
+    <input id="word" type="text"></input><input type="button" onClick="getlevel()">確認</input>
+    <div id="info">
 </body>
-
 </html>
